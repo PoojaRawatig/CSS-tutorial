@@ -1,0 +1,18 @@
+#heading{
+    text-align: center;
+    border-bottom: 2px solid blue;
+}
+
+
+
+#p1{
+    
+    border-radius: 20px;
+    border-width: 10px 5px 2px 1px;
+    border-color: red;
+    border-style: solid;
+
+    /* short command */
+    /* border: 5px solid black; */
+    
+}

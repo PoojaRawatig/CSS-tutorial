@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo Element Selector</title>
+    <style>
+        p::first-line {
+            color: red;
+        }
+
+        p::first-letter{
+            margin-left: 30px;
+            font-size: 50px;
+        }
+
+        p::before{
+            content: '=>';
+        }
+
+        p::after{
+            content: ' ~The End';
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nisi adipisci perspiciatis cupiditate quisquam aperiam consectetur voluptates optio laborum quam vel accusamus maiores quaerat suscipit atque quia saepe, velit sapiente iure consequuntur maxime. Magni quod quos repellendus unde officia amet quia libero eos id laboriosam vitae cupiditate, accusamus tempore totam, modi odio ad cum repellat illo! Repellendus id harum natus atque ullam omnis sit, ducimus ut odio aliquid cupiditate? Ullam similique debitis delectus deleniti laborum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quos amet neque? Debitis reiciendis eligendi quaerat magnam odit sed quia quod quae repellendus natus accusantium animi, in neque. Dignissimos accusantium quibusdam laboriosam exercitationem dolores, suscipit dicta libero fugit, fugiat commodi, ex repudiandae velit animi voluptatibus harum voluptas? Aperiam, quisquam veniam.</p>
+</body>
+</html>

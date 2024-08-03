@@ -1,0 +1,15 @@
+#heading1{
+    color: red;
+}
+
+#heading2{
+    color: #ff0000;
+}
+
+#heading3{
+    color: rgb(4, 170, 109);
+}
+
+#heading4{
+    color: rgba(4, 170, 109, 0.5);
+}

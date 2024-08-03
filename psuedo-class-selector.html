@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo Class Selector</title>
+
+    <style>
+        #myDiv{
+            height: 100px; 
+            width: 100px; 
+            background-color: red;
+        }
+
+        #myDiv:hover {
+            height: 50px;
+            width: 50px;
+            background-color: blue;
+        }
+
+        #submitBtn:active{
+            background-color: green;
+            color: white;
+        }
+
+        input:focus{
+            background-color: blanchedalmond;
+        }
+
+        p:last-child{
+            color: blue;
+        }
+
+        p:first-child{
+            color:red
+        }
+
+    </style>
+</head>
+<body>
+    <div id="myDiv">
+        &tb
+    </div>
+
+    <br>
+
+    <button id="submitBtn">Submit</button>
+
+    <br>
+
+    <form action="">
+        <input type="text" placeholder="name">
+        <br>
+        <input type="password" placeholder="password">
+    </form>
+
+    <div id="paragraphDiv">
+        <p>paragraph zero</p>
+        <p>paragraph one</p>
+        <p>paragraph two</p>
+        <p>paragraph three</p>
+        <p>pargraph four</p>
+    </div>
+</body>
+</html>

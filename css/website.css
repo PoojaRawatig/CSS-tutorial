@@ -1,0 +1,166 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #FAF9F6;
+    
+}
+
+nav {
+    display: flex;
+    background-color: #ffff;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+nav>ul {
+    list-style: none;
+    display: flex;
+    align-items: center
+}
+
+nav>ul>li {
+    margin: 0px 5px;
+    padding: 10px;
+    transition: 0.5s ease;
+}
+
+nav>ul>li :hover{
+    background-color: cornflowerblue;
+    color: #fff;
+    padding: 15px;
+    transition: 0.5s ease;
+    border-radius: 50px;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: cornflowerblue;
+    text-shadow: 0px 0px 1px blue;
+}
+
+nav>ul>li:hover {
+    color: rgba(0, 0, 0, 0.1);
+}
+
+nav>ul>li:active {
+    color: rgb(256, 0, 0)
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo-text {
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+
+#logo-text > a{
+    text-decoration: none;
+    color: cornflowerblue;
+    text-shadow: 0px 0px 1px blue;
+}
+
+i {
+    color: cornflowerblue
+}
+
+#banner{
+    width: 98vw;
+    display: flex;
+    margin: 0px auto;
+}
+
+section > h2{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #282828;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.product-item:hover{
+    box-shadow: 10px 10px 10px grey;
+    transition: 0.2s ease;
+}
+
+.price{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.strike{
+    text-decoration: line-through;
+    color: #282828;
+    text-decoration-color: #000;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.discount{
+    color: red;
+    font-style: italic;
+}
+
+.product-item > img { 
+    width: 18vw;
+    height: 40vh;
+}
+
+.cartButton{
+    margin: 10px;
+    padding: 7px 20px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid cornflowerblue;
+    border-radius: 50px;
+    
+}
+
+.cartButton:hover{
+    box-shadow: 2px 2px 5px black;
+    transition: 0.3s ease;
+}
+
+#about-us{
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+footer{
+    background-color: cornflowerblue;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+
+footer > span{
+    color: #ffff;
+    font-weight: bold;
+}

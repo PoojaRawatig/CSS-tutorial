@@ -1,0 +1,39 @@
+h1{
+    /* color styles */
+    color: red;
+    background-color: yellow;
+
+    /* alignment */
+    text-align: center;
+
+    /* text decoration */
+    text-decoration: underline overline;
+    text-decoration-color: blue;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px;
+
+    /* text transform */
+    text-transform: uppercase;
+}
+
+#p1{
+    
+    text-transform: capitalize;
+    text-indent: 100px;
+    letter-spacing: 3px;
+}
+
+#p2{
+    text-align-last: right;
+    text-decoration: line-through green solid 2px;
+}
+
+#p3{
+    line-height: 20px;
+    word-spacing: 25px;
+}
+
+#logo{
+    text-align: center;
+    text-shadow: 2px 2px red;
+}

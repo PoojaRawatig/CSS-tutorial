@@ -1,0 +1,25 @@
+#parentDiv { 
+    margin: 50px;
+    border: 2px solid black;
+    position: relative;
+}
+
+#parentDiv div{
+    height: 200px;
+    width: 200px;
+}
+
+#div1{
+    background-color: yellow;
+}
+
+#div2{
+    background-color: green;
+    top: 50px;
+    left: 100px;
+    position: sticky;
+}
+
+#div3{
+    background-color: cyan;
+}

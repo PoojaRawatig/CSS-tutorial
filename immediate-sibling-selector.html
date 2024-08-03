@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immediate Sibling Selector</title>
+
+    <style>
+        div + p{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <!-- Child Tags of div -->
+        <p>This is Paragraph 1</p>
+        <p>This is paragraph 2</p>
+        <span>
+            <!-- Not a children. It's a descendant -->
+            <p>This is Paragraph 5</p>
+        </span>
+        <h1>This is heading 1</h1>
+    </div>
+    <!-- they are not child tags of div -->
+    <p>This is paragraph 3</p>
+    <p>This is paragraph 4</p>
+    <p>This is Paragraph 6</p>
+</body>
+</html>
